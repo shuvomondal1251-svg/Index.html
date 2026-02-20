@@ -1,0 +1,58 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>R K ENTERPRISE - IT Support & Repair</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#f5f7fb;color:#222}
+header{background:#0f172a;color:#fff;padding:20px;text-align:center}
+nav a{margin:0 10px;color:#fff;text-decoration:none;font-weight:bold}
+.hero{padding:60px 20px;text-align:center;background:linear-gradient(135deg,#2563eb,#06b6d4);color:#fff}
+.container{max-width:1100px;margin:auto;padding:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 10px 20px rgba(0,0,0,.08)}
+footer{background:#0f172a;color:#fff;text-align:center;padding:15px;margin-top:30px}
+button{background:#2563eb;border:none;color:#fff;padding:10px 16px;border-radius:10px;cursor:pointer}
+</style>
+</head>
+<body>
+<header>
+<h1>R K ENTERPRISE</h1>
+<p>All Types of IT Support & Repair</p>
+<nav>
+<a href="#services">Services</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+<section class="hero">
+<h2>Professional Tech Support Shop</h2>
+<p>Printer, Laptop, Cartridge, CCTV Camera, Desktop & More</p>
+<button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Service</button>
+</section>
+<section id="services" class="container">
+<h2>Our Services</h2>
+<div class="grid">
+<div class="card"><h3>Laptop Repair</h3><p>Hardware & software troubleshooting.</p></div>
+<div class="card"><h3>Desktop Repair</h3><p>Complete PC servicing and upgrades.</p></div>
+<div class="card"><h3>Printer Service</h3><p>Printer repair and cartridge refilling.</p></div>
+<div class="card"><h3>CCTV Installation</h3><p>Camera setup and maintenance.</p></div>
+<div class="card"><h3>Networking</h3><p>WiFi, router and office network setup.</p></div>
+<div class="card"><h3>IT Support</h3><p>On-site and remote technical support.</p></div>
+</div>
+</section>
+<section id="about" class="container">
+<h2>About Us</h2>
+<p>R K ENTERPRISE is a local technology support shop providing reliable IT services for homes and businesses. We specialize in repair, installation, and maintenance of computers, printers, and CCTV systems.</p>
+</section>
+<section id="contact" class="container">
+<h2>Contact Us</h2>
+<p>Phone: +91-XXXXXXXXXX</p>
+<p>Email: support@rkenterprise.com</p>
+<p>Location: Your City, India</p>
+</section>
+<footer>
+<p>© 2026 R K ENTERPRISE | All Rights Reserved</p>
+</footer>
+</body>
+</html>
